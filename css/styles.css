@@ -29,6 +29,8 @@ h2{
 .main-header #logo {
   width: 45%;
   margin: 10px 0;
+  transition: width 2s;
+  display: block;
 }
 .main-header .main-nav {
   background: #882433;
@@ -62,6 +64,7 @@ h2{
   width: 70%;
   float: left;
   overflow: auto;
+  transition: width 1s;
 }
 #content article{
   border-radius: 5px;
@@ -118,6 +121,10 @@ footer p{
     margin: auto;
     display: block;
     width: 65%;
+    transition: width 1s;
+  }
+  .main-header .main-nav {
+    display: block;
   }
   #content {
     width: 100%;
